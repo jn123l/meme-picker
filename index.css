@@ -103,7 +103,7 @@ label {
 }
 
 .exit-modal {
-    color: #000;
+    color: red;
     margin-right: 20px;
     margin-top: 15px;
     font-size: 38px; 
@@ -126,3 +126,4 @@ label {
     width: 550px;
     max-height:500px;
 }
+
