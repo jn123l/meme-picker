@@ -64,9 +64,13 @@ const header = document.getElementById("header")
 const exitModal = document.getElementById("exit-modal")
 
 
-header.addEventListener("click", function(){
-    memeModal.style.display="none";
+document.addEventListener('click', (e) => {
+    if (!e.target.id){
+        memeModal.style.display="none"
+    }
 })
+
+
 
 exitModal.addEventListener("click", function(){
     memeModal.style.display="none";
