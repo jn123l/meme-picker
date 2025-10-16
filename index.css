@@ -2,14 +2,14 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #2EA1EF;
-    font-size: 28px;
+    font-size: 48px;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 48px;
 }
 header {
-    font-size: 55px;
+    font-size: 36px;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -19,6 +19,9 @@ header {
     color: #fff;
 }
 
+.logo{
+    width: 150px;
+}
 
 .container{
     width: 1000px;
@@ -71,7 +74,7 @@ label {
 
 .checkbox label {
     margin-right: 5px;
-    font-size: 22px;;
+    font-size: 34px;;
 }
 
 .copyright {
@@ -79,8 +82,8 @@ label {
 }
 
 .show-btn {
-    padding: 12px 20px;
-    font-size: 22px;
+    padding: 14px 24px;
+    font-size: 32px;
     background:#2EA1EF;
     color:#fff;
     border: none;
@@ -91,7 +94,7 @@ label {
     width: 700px;
     height: 700px;
     position: fixed;
-    top: 300px;
+    top: 30vh;
     left:  0px;
     right: 0px;
     margin: 0 auto;
