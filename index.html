@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meme picker</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header id="header">
+            <img class="logo" src="./images/logo.webp">
+            <h1>Jan's Meme picker</h1>
+        </header>
+        <main id="main">
+            <div class="container">
+                <div class="feeling">
+                <h3>Wie fühlst du dich gerade?</h3>
+                </div>
+                <div class="container2">
+                    <div class="radio-container" id="radio-container"></div>
+                </div>
+                <div class="checkbox">
+                    <label for="checkbox">Nur GIFs</label>
+                    <input type="checkbox" id="checkbox">
+                </div>
+                <div class="show-meme">
+                    <button class="show-btn" id="show-btn">Zeig das Meme!</button>
+                </div>
+            </div>    
+        </main>
+        <div class="modal" id="modal">
+            <div class="exit-modal-container">
+                <p class="exit-modal"><span id="exit-modal">X</span></p>
+            </div>
+            <div class="modal-inner" id="modal-inner">
+            </div>
+        </div>
+        <footer>
+            <p class="copyright">© 2025 Jan Lindner</p>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
